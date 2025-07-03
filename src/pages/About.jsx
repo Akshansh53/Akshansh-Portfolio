@@ -38,7 +38,7 @@ export function About() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, delay: 0.6 }}
       >
-        <span className="material-symbols-outlined">keyboard_double_arrow_down</span>
+        <span><i class="fa-solid fa-angles-down"></i></span>
       </motion.div>
     </>
   );

@@ -12,6 +12,11 @@ html {
     padding-top: 11%;
     padding-bottom:7%;
 }
+
+.fa-angles-down{
+  font-size: 5vw;
+  margin: 1.3vw;
+}
 h1{
 font-size:clamp(1.5rem, 5vw, 3rem);
 color:#e9ebef;
