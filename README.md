@@ -35,8 +35,6 @@
 ## 🔗 Live Demo:
 
 👉 [View Portfolio](https://your-vercel-link.vercel.app)
-## 📷 Screenshot (Optional):
-
 
 ## 💬 Contact:
 Feel free to reach out via [Email](mailto:akshanshverma53@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/akshansh-verma-b88082293/).
