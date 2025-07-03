@@ -447,7 +447,7 @@ detail-top{
   display: flex;
   justify-content: end;
 }
-.go-link>button{
+.go-link>a>button{
   background:none;
   color: #e9ebef;
   font-family:"Montserrat" ;

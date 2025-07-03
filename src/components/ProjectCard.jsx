@@ -6,7 +6,7 @@ import { useState,useEffect } from "react"
 import {Heading} from "./Heading";
 import html from "../assets/Skills/html.png";
 import css from "../assets/Skills/css.png";
-import js from "../assets/Skills/js.png";
+import javascript from "../assets/Skills/js.png";
 import typescript from "../assets/Skills/typescript.png";
 import react from "../assets/Skills/react.png";
 import redux from "../assets/Skills/redux.png";
@@ -33,8 +33,8 @@ export function ProjectCard({props}){
      const techImages = {
   html,
   css,
-  js,
   typescript,
+  javascript,
   react,
   redux,
   nextjs,
@@ -68,7 +68,7 @@ export function ProjectCard({props}){
 
     return (
     <div className="project-card">
-        <img src={Propertease} alt="" />
+        <img src={props.image} alt="" />
         <div className="readmore">
             <span>{props.title}</span>
             <button onClick={()=>setshowModal(true)}>Read More</button>
@@ -101,7 +101,7 @@ export function ProjectCard({props}){
       ></i>
     </div>
 
-    <img src={Propertease} alt="" />
+    <img src={props.image} alt="" />
     <div className="minidesc">
       <h2>{props.minidesc}</h2>
     </div>
@@ -154,12 +154,16 @@ export function ProjectCard({props}){
     </div>
 
     <div className="go-link">
+      <a href={props.github} target="_blank">
       <button>
         <i className="fa-brands fa-github"></i> Code
       </button>
+      </a>
+      <a href={props.live} target="_blank">
       <button>
         <i className="fa-solid fa-eye"></i> Demo
       </button>
+      </a>
     </div>
   </motion.div>
 ) : (
