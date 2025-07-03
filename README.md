@@ -37,7 +37,6 @@
 👉 [View Portfolio](https://your-vercel-link.vercel.app)
 ## 📷 Screenshot (Optional):
 
-![Portfolio Screenshot](https://via.placeholder.com/1000x600.png?text=Portfolio+Screenshot)
 
 ## 💬 Contact:
 Feel free to reach out via [Email](mailto:akshanshverma53@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/akshansh-verma-b88082293/).
