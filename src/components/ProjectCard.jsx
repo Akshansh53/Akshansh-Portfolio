@@ -1,7 +1,6 @@
 import "../components/Components.css"
 import { motion, AnimatePresence } from "framer-motion";
 
-import Propertease from "../assets/Projects/propertease.png"
 import { useState,useEffect } from "react"
 import {Heading} from "./Heading";
 import html from "../assets/Skills/html.png";
@@ -36,7 +35,6 @@ export function ProjectCard({props}){
   typescript,
   javascript,
   react,
-  redux,
   nextjs,
   bootstrap,
   tailwind,
