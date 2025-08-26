@@ -2,6 +2,7 @@ import { Heading } from "../components/Heading";
 import { ProjectCard } from "../components/ProjectCard";
 import propertease from "../assets/Projects/propertease.png";
 import eazypay from "../assets/Projects/eazypay.png"
+import blognest from "../assets/Projects/blognest.jpg"
 import cara from "../assets/Projects/cara.png"
 import { motion } from "framer-motion"; 
 
@@ -27,6 +28,26 @@ export function Projects() {
                             "A user can See other users' listings but only manage their own."
                         ]
                     },
+     {
+    image: blognest, 
+    title: "BlogNest",
+    minidesc: "A Blogging Platform where users can create, manage, and explore blogs seamlessly.",
+    type: "Full Stack Blog Publishing Platform (Individual Project)",
+    tech: ["postgresql", "expressjs", "react", "nodejs", "drizzle"],
+    github: "#",
+    live: "#",
+    features: [
+        "A user can Sign up or Log in securely using email and password.",
+        "A user can Create, Edit, Update, and Delete their own blog posts.",
+        "A user can Categorize blogs with tags for better organization.",
+        "A user can View and explore blogs posted by others.",
+        "A user can Search blogs by title, category, or tags.",
+        "A user can View their published and draft blogs separately.",
+        "Implemented role-based access to ensure users can manage only their content.",
+        "Utilized PostgreSQL (Neon) with Drizzle ORM for efficient relational data modeling and seamless migrations."
+    ]
+},
+       
     {
     image: eazypay, 
     title: "EazyPay",
